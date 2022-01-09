@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Table Top Warriors",
+        "description": "Website for trading card enthusiasts to store their deck collections for the trading card games Pokemon, YuGiOh, and Magic The Gathering.",
+        "image": "ttw",
+        "app": "https://glacial-wave-35066.herokuapp.com/",
+        "github": "https://github.com/Ericcrain77/table-top-warriors"
+    },
+    {
+        "title": "Crypto Watcher",
+        "description": "Website for tracking the current value of various crypotcurrencies. Users can search any cryptocurrency and are presented with its current value and ranking.",
+        "image": "cw",
+        "app": "https://john-harris-iii.github.io/crypto-watcher/",
+        "github": "https://github.com/john-harris-iii/crypto-watcher"
+    },
+    {
+        "title": "Weather Dashboard",
+        "description": "Website that allows users to look up the current weather conditions for a certain area.",
+        "image": "wd",
+        "app": "https://john-harris-iii.github.io/fluffy-weather-waffle/",
+        "github": "https://github.com/john-harris-iii/fluffy-weather-waffle"
+    },
+    {
+        "title": "Taskmaster Pro",
+        "description": "A kanban board application that allows users to filter tasks by category including: To Do, In Progress, In Review, and Done",
+        "image": "tmp",
+        "app": "https://john-harris-iii.github.io/taskmaster-pro/",
+        "github": "https://github.com/john-harris-iii/taskmaster-pro"
+    },
+    {
+        "title": "Work Day Scheduler",
+        "description": "Application that allows users to schedule their work day by the hour to improve efficiency.",
+        "image": "wds",
+        "app": "https://john-harris-iii.github.io/work-day-schedular/",
+        "github": "https://github.com/john-harris-iii/work-day-schedular"
+    },
+    {
+        "title": "Note Taker",
+        "description": "Application that allows users to write down notes. Notes are saved to the browser and can be deleted",
+        "image": "nt",
+        "app": "https://tranquil-beyond-71085.herokuapp.com/",
+        "github": "https://github.com/john-harris-iii/musical-waddle-note"
+    }
+]
