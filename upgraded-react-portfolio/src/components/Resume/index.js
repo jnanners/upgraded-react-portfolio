@@ -15,10 +15,9 @@ const Resume = () => {
                     </div>
                 )}
             </div>
-            {/* resume like will be added later */}
             <div className="resume">
                 <p>Download full resume here:</p>
-                <a href="/"><FaCloudDownloadAlt /></a>
+                <a href="/resume/jh3-resume.pdf" download><FaCloudDownloadAlt /></a>
             </div>
         </section>
     );

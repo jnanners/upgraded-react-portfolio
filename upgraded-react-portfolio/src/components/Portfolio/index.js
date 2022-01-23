@@ -2,6 +2,8 @@ import React from "react";
 import projects from "./projects.json";
 import {FaGithub, FaRocket} from "react-icons/fa";
 
+import Card from "react-bootstrap/Card"
+
 const Portfolio = () => {
     return(
         <section className="portfolio">
@@ -9,17 +11,17 @@ const Portfolio = () => {
                 <h2>Portfolio</h2>
                 <div className="projects">
                     {projects.map((project) => 
-                        <div className="project">
-                            <img src={require("../../assets/images/apps/" + project.image + ".png")} alt={project.title} style={{width: "300px", height:"auto"}}/>
-                            <div className="project-info">
-                                <h3>{project.title}</h3>
-                                <p>{project.description}</p>
+                        <Card>
+                            <Card.Body>
+                                <Card.Title>{project.title}</Card.Title>
+                                <Card.Text>{project.description}</Card.Text>
                                 <div className="icons">
                                     <i><a href={project.app}><FaRocket /></a></i>
                                     <i><a href={project.github}><FaGithub /></a></i>
                                 </div>
-                            </div>
-                        </div>
+                            </Card.Body>
+                            <Card.Img variant="bottom" src={require("../../assets/images/apps/" + project.image + ".png")} alt={project.title} style={{width: "inherit", height:"inherit"}}/>
+                        </Card>
                     )}
                 </div>
             </div>
