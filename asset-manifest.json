@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/upgraded-react-portfolio/static/css/main.9789063e.css",
-    "main.js": "/upgraded-react-portfolio/static/js/main.0ad765c4.js",
+    "main.css": "/upgraded-react-portfolio/static/css/main.d078fb72.css",
+    "main.js": "/upgraded-react-portfolio/static/js/main.3417bb3d.js",
     "static/js/787.0b37cbc1.chunk.js": "/upgraded-react-portfolio/static/js/787.0b37cbc1.chunk.js",
     "static/media/profile-pic.jpg": "/upgraded-react-portfolio/static/media/profile-pic.27e69311ae0e1583948d.jpg",
     "static/media/ttw.png": "/upgraded-react-portfolio/static/media/ttw.bfac6dded77bcefafa59.png",
@@ -11,12 +11,12 @@
     "static/media/tmp.png": "/upgraded-react-portfolio/static/media/tmp.373ef7e5065b318cf4b2.png",
     "static/media/nt.png": "/upgraded-react-portfolio/static/media/nt.8d206a0d58253fe28ad8.png",
     "index.html": "/upgraded-react-portfolio/index.html",
-    "main.9789063e.css.map": "/upgraded-react-portfolio/static/css/main.9789063e.css.map",
-    "main.0ad765c4.js.map": "/upgraded-react-portfolio/static/js/main.0ad765c4.js.map",
+    "main.d078fb72.css.map": "/upgraded-react-portfolio/static/css/main.d078fb72.css.map",
+    "main.3417bb3d.js.map": "/upgraded-react-portfolio/static/js/main.3417bb3d.js.map",
     "787.0b37cbc1.chunk.js.map": "/upgraded-react-portfolio/static/js/787.0b37cbc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9789063e.css",
-    "static/js/main.0ad765c4.js"
+    "static/css/main.d078fb72.css",
+    "static/js/main.3417bb3d.js"
   ]
 }
