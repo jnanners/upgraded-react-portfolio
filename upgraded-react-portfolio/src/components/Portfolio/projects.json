@@ -1,5 +1,12 @@
 [
     {
+        "title": "4 Monitor Fitness",
+        "description": "Website for fit coders to store their favorite exercises in workouts, and find new exercises for future workouts",
+        "image": "4mf",
+        "app": "https://cryptic-depths-93627.herokuapp.com/",
+        "github": "https://github.com/tniemeye19/4-Monitor-Fitness"
+    },
+    {
         "title": "Table Top Warriors",
         "description": "Website for trading card enthusiasts to store their deck collections for the trading card games Pokemon, YuGiOh, and Magic The Gathering.",
         "image": "ttw",
