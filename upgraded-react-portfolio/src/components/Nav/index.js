@@ -23,11 +23,6 @@ const Nav = (props) => {
                             Contact Me
                         </a>
                     </li>
-                    <li className="mx-2">
-                        <a href="#resume" onClick={() => props.setActiveDisplay("Resume")}>
-                            Resume
-                        </a>
-                    </li>
                 </ul>
             </nav>
         </header>

@@ -43,6 +43,8 @@ footer i a {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .mx-1 {
@@ -102,6 +104,7 @@ footer i a {
 .skills {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 body {
@@ -116,4 +119,101 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#profile-pic {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 5px 0 5px 0;
+}
+
+input {
+  outline: none;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  border-radius: 10px;
+  border: 0;
+}
+
+textarea {
+  outline: none;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  border-radius: 10px;
+  border: 0;
+}
+
+button {
+  appearance: none;
+  padding:10px;
+  border:1px solid black;
+  color:black;
+  font-weight:600;
+  border-radius:5px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border:1px solid #3F51B5;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  background-color:black;
+  color:white;
+}
+
+.mx-2 a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.mx-2 a:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.mx-2 a:active {
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.email {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.card-title {
+  font-weight: bold;
 }

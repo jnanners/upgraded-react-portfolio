@@ -10,10 +10,11 @@ const Portfolio = () => {
             <div>
                 <h2>Portfolio</h2>
                 <div className="projects">
-                    {projects.map((project) => 
-                        <Card>
+                    {projects.map((project, index) => 
+                        <Card
+                        key={index}>
                             <Card.Body>
-                                <Card.Title>{project.title}</Card.Title>
+                                <Card.Title className="card-title">{project.title}</Card.Title>
                                 <Card.Text>{project.description}</Card.Text>
                                 <div className="icons">
                                     <i><a href={project.app}><FaRocket /></a></i>
